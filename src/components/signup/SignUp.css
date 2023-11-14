@@ -1,0 +1,67 @@
+#signup {
+    text-align: left;
+}
+
+#signup h1 {
+    color: #b0b1b3;
+    margin-bottom: 1em;
+}
+
+#signup input {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #cacbcc;
+    border-style: solid;
+    margin-bottom: 1em;
+}
+
+#signup input:hover {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #2b87e2;
+    border-style: solid;
+    margin-bottom: 1em;
+}
+
+.btnsignup {
+    width: 100%;
+    background: #19191a;
+    color: #FFF;
+    padding: 10px 5px;
+    margin-bottom: 1em;
+}
+
+.btnsignup:hover {
+    width: 100%;
+    background: #19191a;
+    color: #FFF;
+    padding: 10px 5px;
+    margin-bottom: 1em;
+}
+
+.error {
+    color: red;
+}
+.success {
+    display: flex;
+}
+.dots {
+    display: block;
+    width: 2em;
+    margin-right: 10px;;
+    aspect-ratio: 5;
+    --_g: no-repeat radial-gradient(circle closest-side,#000 90%,#0000);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 100%;
+    animation: d7 1s infinite linear;
+  }
+  @keyframes d7 {
+      33%{background-size:calc(100%/3) 0%  ,calc(100%/3) 100%,calc(100%/3) 100%}
+      50%{background-size:calc(100%/3) 100%,calc(100%/3) 0%  ,calc(100%/3) 100%}
+      66%{background-size:calc(100%/3) 100%,calc(100%/3) 100%,calc(100%/3) 0%  }
+  }
